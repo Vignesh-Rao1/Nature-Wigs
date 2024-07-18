@@ -193,7 +193,7 @@ button:hover {
 
 .story-section {
     position: relative;
-    background: url('./assets/women_landscape_children_nature_sunset_Jake_Olson_Nebraska-128593.jpg!d') no-repeat center center/cover;
+    background: url('./women_landscape_children_nature_sunset_Jake_Olson_Nebraska-128593.jpg!d') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     align-items:center;
@@ -310,7 +310,7 @@ p {
 
 
 .service-girl{
-    background-image: url('./assets/istockphoto-1004104946-612x612.jpg');
+    background-image: url('./istockphoto-1004104946-612x612.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -379,7 +379,7 @@ p {
     left:0;
     width: 150px;
     height: 150px;
-    background: url('./assets/monstera-leaf-vector-illustrations-RADWZJU-3.webp') no-repeat center center / contain;
+    background: url('./monstera-leaf-vector-illustrations-RADWZJU-3.webp') no-repeat center center / contain;
 }
 
 .content {
