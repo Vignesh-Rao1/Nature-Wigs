@@ -61,7 +61,7 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
                         
-                        <button type="submit">Send</button>
+                <button type="submit" id="sendButton">Send</button>
                     </form>
                 </div>
                 <div class="info-container">
@@ -142,7 +142,7 @@
                 <button class="tracker-button">Hair Transformation Progress</button>
                 <button class="tracker-button">Wig Customization Progress</button>
                 <button class="tracker-button">Hair Extension Journey</button>
-                <button class="contact-button">Get In Touch</button>
+                 <button class="contact-button" id="sendButton">Get In Touch</button>
             </div>
         </div>
     </div>
@@ -178,7 +178,7 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Message"></textarea>
 
-                <button type="submit">Send</button>
+                <button type="submit" id="sendButton">Send</button>
             </form>
         </div>
     </div> 
@@ -223,5 +223,11 @@
             <p>© All rights reserved by The United Social 2024</p>
         </div>
     </footer>
+        <script>
+        document.getElementById('sendButton').addEventListener('click', function() {
+            alert('Submitted successfully');
+        });
+    </script>
+    
 </body>
 </html>
