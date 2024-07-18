@@ -50,18 +50,18 @@
                     <h2>Get In Touch</h2>
                     <form>
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Name">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
                         
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number"  required>
                         
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="email" id="email" name="email" placeholder="Email"  required>
                         
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+                        <textarea id="message" name="message" placeholder="Message" rows="4"  required></textarea>
                         
-                <button type="submit" class="sendButton">Send</button>
+                <button type="submit" id="sendButton">Send</button>
                     </form>
                 </div>
                 <div class="info-container">
@@ -167,18 +167,18 @@
             <h1>Get In Touch</h1>
             <form>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="name" name="name" placeholder="Name"  required>
 
                 <label for="phone">Phone Number</label>
-                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                <input type="text" id="phone" name="phone" placeholder="Phone Number"  required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Email">
+                <input type="email" id="email" name="email" placeholder="Email"  required>
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Message"></textarea>
+                <textarea id="message" name="message" placeholder="Message"  required></textarea>
 
-                <button type="submit" class="sendButton">Send</button>
+                <button type="submit" id="sendButton1">Send</button>
             </form>
         </div>
     </div> 
@@ -224,7 +224,10 @@
         </div>
     </footer>
         <script>
-        document.getElementByClassName('sendButton').addEventListener('click', function() {
+        document.getElementById('sendButton').addEventListener('click', function() {
+            alert('Submitted successfully');
+        });
+        document.getElementById('sendButton1').addEventListener('click', function() {
             alert('Submitted successfully');
         });
     </script>
