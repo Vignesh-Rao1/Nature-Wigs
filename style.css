@@ -1,0 +1,650 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf8f6;
+    color: #4a4a4a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 50px;
+    background-color: #F7F0EF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.main{
+    height: 100vh;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    size: 100%;
+    margin-left: 60px;
+    
+}
+
+.logo img {
+    width: 220px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.margin{
+    margin-left: 10px;
+}
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+.social-icons a {
+    color: #4a4a4a;
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+.social-icons  {
+    margin-right: 60px;
+   
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #F7F0EF;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100vh
+
+}
+
+.hero-content {
+    max-width: 25%;
+    font-style:italic;
+    text-wrap:pretty;
+    line-height: 1.6;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.9;
+
+}
+
+.subheading {
+    font-size: 24px;
+    font-style: italic;
+    color: #6d6d6d;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #6d6d6d;
+}
+
+.hero-images {
+    display: flex;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.hero-images img {
+    width: 350px;
+    border-top-left-radius:50% ;
+    border-top-right-radius:50% ;
+}
+
+
+
+.contact-section {
+    padding: 50px;
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 5;
+}
+
+.form-container, .info-container {
+    width: 45%;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #4a4a4a;
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.info-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.story-section {
+    position: relative;
+    background: url('./assets/women_landscape_children_nature_sunset_Jake_Olson_Nebraska-128593.jpg!d') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    padding: 50px;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 80vh;
+    margin-right: 10%;
+}
+
+.text-container {
+    text-align: left;
+}
+
+h2 {
+    font-size: 36px;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    align-items: center;
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a4a4a;
+}
+
+.service-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #F7F0EF;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.service-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    align-items: center;
+    text-align: center;
+}
+
+.service-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    overflow: hidden;
+    text-align: center;
+    width: 240px;
+    margin: 20px;
+  
+}
+
+.service-card img {
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.service-card button {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.service-card button:hover {
+    background-color: #333;
+}
+
+
+.service-girl{
+    background-image: url('./assets/istockphoto-1004104946-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin-top: 100px;
+
+
+}
+.service-girl1{
+    display: flex;
+    justify-content:space-around;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+}
+
+.service-card1 {
+    text-align: center;
+    width: 45%;
+    height: 80vh;
+  
+}
+.service-card1 img {
+    width: 80%;
+
+}
+.service-exper{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    color: #4a4a4a;
+    padding-top: 50px;
+
+}
+.service-exper h3{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4a4a4a;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 100px;
+}
+
+.image-container {
+    position: relative;
+    width: 35%;
+    
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 45% 45% 0 0;
+    height: 90vh;
+}
+
+.leaf-decoration {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 150px;
+    height: 150px;
+    background: url('./assets/monstera-leaf-vector-illustrations-RADWZJU-3.webp') no-repeat center center / contain;
+}
+
+.content {
+    width: 40%;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #3e4d43;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #6e7057;
+}
+
+.description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #3e4d43;
+}
+
+.tracker-button, .contact-button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e4d43;
+    color: #fff;
+    cursor: pointer;
+    text-align: left;
+}
+
+.tracker-button {
+    background-color: #3e4d43;
+}
+
+.contact-button {
+    background-color: #d3d6bf;
+    color: #3e4d43;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 50%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.text-section {
+    padding: 60px;
+    text-align: left;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.text-section p{
+    text-align: left;
+    
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #3e4d43;
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #6e7057;
+}
+
+.description {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #3e4d43;
+}
+
+.learn-more-button {
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid #3e4d43;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #3e4d43;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.contact-container {
+    display: flex;
+    height: 90vh;
+    margin: 9%;
+
+}
+
+.image-section1 {
+    flex: 1;
+}
+
+.image-section1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-section {
+    flex: 1;
+    background: url('marble_background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #3e4d43;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    color: #3e4d43;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #3e4d43;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #E9EDC9;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-section img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #3e4d43;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p {
+    color: #3e4d43;
+    margin: 10px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.policies {
+    margin: 20px 0;
+}
+
+.policies a {
+    margin: 0 15px;
+    color: #3e4d43;
+    text-decoration: none;
+}
+
+address {
+    color: #3e4d43;
+    font-style: normal;
+    margin: 20px 0;
+}
+
+footer p:last-child {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #3e4d43;
+}
+
+.fles1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding-top:7%;
+    padding-bottom:7%;
+}
